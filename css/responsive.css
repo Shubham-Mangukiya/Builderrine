@@ -1,0 +1,226 @@
+@media screen and (max-width:991px) {
+
+    .container {
+        max-width: none !important;
+        padding: 0 12px;
+    }
+
+    .left_about {
+        display: none;
+    }
+
+    .right_about {
+        width: 100% !important;
+    }
+    .banner_content_txt {
+        border-right: none;
+    }
+    .main_banner>.row {
+        display: block;
+    }
+    .sub_img_banner {
+        width: 100%;
+        text-align: center;
+    }
+    .banner_content_txt>img {
+        max-width: 15%;
+    }
+    .sub_contect_banner {
+        width: 100%;
+        text-align: center; 
+    }
+    .b_txt{
+        font-size: 28px !important;
+        margin: 30px 0 !important;
+    }
+    .s_onebg::after,.s_onebg::before{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:0px) and (max-width:991px){
+    
+    .faq_img{
+        display: none;
+    }
+    .accordion_faq{
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width:768px) {
+    .icon {
+        padding: 18px;
+        background-color: var(--bgblue);
+        font-size: 14px;
+    }
+
+    .hide_text {
+        display: none;
+    }
+    .s_one_hed{
+        font-size: 34px;
+      }
+      .s_onelist > li >a{
+        font-size: 25px;
+      }
+      .fun_img {
+        border-right: 2px solid transparent;
+        margin: 10px 0;
+      }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .main_logo {
+        margin-bottom: 10px;
+    }
+
+    .w-50 {
+        width: calc(100% - 20px) !important;
+    }
+
+    .social_icon {
+        padding: 0;
+    }
+
+    .btn_top_theme {
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+
+    .btn_top_theme:hover {
+        color: var(--bgblue) !important;
+    }
+
+    .icon {
+        padding: 13px 11px;
+        font-size: 12px;
+    }
+
+    .offcanvas {
+        max-width: 60%;
+    }
+
+    .contect {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .p_icon {
+        display: none;
+    }
+
+    .contect_us {
+        text-align: start;
+    }
+    .banner_content_txt>img {
+        max-width: 25%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .main_logo>a>img {
+        width: 180%;
+    }
+    .p_img {
+        /* background-color: var(--bgyellow); */
+        border: 1px solid #fff;
+      }
+      .footer_list,.footer_logo{
+        text-align: center;
+      }
+      .footer_up{
+        margin: auto;
+      }
+}
+@media screen and (min-width:375px) and (max-width:768px) {
+      .footer_list,.footer_logo{
+        text-align: center;
+      }
+      .footer_up{
+        margin: auto;
+      }
+}
+
+@media screen and (max-width:375px) {
+    .main_logo>a>img {
+        width: 60%;
+    }
+
+    .btn_theme {
+        padding: 15px 50px;
+    }
+
+    .b_heading {
+        font-size: 45px !important;
+    }
+    .right_news_content{
+        margin-top: 30px;
+    }
+    .main_news{
+        padding: 0 12px;
+    }
+    .p_img>img{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+   
+}
+
+@media screen and (max-width:1200px) {
+    .main_menu {
+        display: none !important;
+    }
+
+    .bar_icon {
+        display: block;
+    }
+
+    .about_heading {
+        font-size: 30px;
+    }
+
+    .about_info {
+        margin-bottom: 10px;
+    }
+
+    .b_txt {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+@media screen and (max-width:1920px) and (min-width:1300px) {
+        
+        .owl-nav{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+        }
+        .owl-nav .owl-prev,
+        .owl-nav .owl-next
+        {
+            position: absolute;
+            left: 10px;
+            top: 0;
+            height: 50px;
+            width: 50px;
+            background-color: #fff !important;
+            border-radius: 50% !important;
+            margin: 5px;
+            transition: .3s;
+        }
+        .owl-nav .owl-next{
+            right: 0px;
+            left: auto;
+        }
+
+}
+@media screen and (max-width:1300px) {
+    .contact_bg::before{
+        display: none;
+    }
+}
+
